@@ -17,3 +17,7 @@ namespace: kube-system
 
 # Kubernetes ClusterID value range 1-2048.
 clusterid: 1
+
+# The K8s environment 
+# Valid deployTo tags are: [gke|eks|aks|openshift|native]
+deployTo: "native"
