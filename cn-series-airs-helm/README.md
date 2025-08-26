@@ -1,14 +1,21 @@
----
-Title: AI Runtime Security deployment templates for On-Prem
+# AI Runtime Security Deployment Helm Templates ⎈ 
 
 
-### Go to `helm`
+## Helm Installation Instructions
 
-Please execute the command:
+1. Go to `cn-series-airs-helm` Directory
 
     ```bash
 
-    helm install `<RELEASE_NAME: the name you want>`
+    cd cn-series-airs-helm/
 
     ```
 
+2. Please execute the command:
+
+    ```bash
+
+    helm install `<RELEASE_NAME: the name you want>` helm --namespace kube-system --values helm/values.yaml
+
+    ```
+    
